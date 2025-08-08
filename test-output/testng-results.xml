@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-08T23:57:24 IST" name="MasterSuite" finished-at="2025-08-08T23:57:39 IST" duration-ms="15704">
+    <groups>
+    </groups>
+    <test started-at="2025-08-08T23:57:24 IST" name="Test" finished-at="2025-08-08T23:57:39 IST" duration-ms="15704">
+      <class name="testCases.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.LoginTest@6989da5e]" started-at="2025-08-08T23:57:24 IST" name="setUp" finished-at="2025-08-08T23:57:38 IST" duration-ms="13913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginButtonDisabledWhenFieldsEmpty()[pri:1, instance:testCases.LoginTest@6989da5e]" started-at="2025-08-08T23:57:38 IST" name="testLoginButtonDisabledWhenFieldsEmpty" finished-at="2025-08-08T23:57:38 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonDisabledWhenFieldsEmpty -->
+        <test-method signature="testPasswordMaskedButton()[pri:2, instance:testCases.LoginTest@6989da5e]" started-at="2025-08-08T23:57:38 IST" name="testPasswordMaskedButton" finished-at="2025-08-08T23:57:38 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPasswordMaskedButton -->
+        <test-method signature="testInvalidLoginShowErrorMsg()[pri:3, instance:testCases.LoginTest@6989da5e]" started-at="2025-08-08T23:57:38 IST" name="testInvalidLoginShowErrorMsg" finished-at="2025-08-08T23:57:39 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginShowErrorMsg -->
+        <test-method signature="testPageElementsPresence()[pri:4, instance:testCases.LoginTest@6989da5e]" started-at="2025-08-08T23:57:39 IST" name="testPageElementsPresence" finished-at="2025-08-08T23:57:39 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageElementsPresence -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginTest@6989da5e]" started-at="2025-08-08T23:57:39 IST" name="tearDown" finished-at="2025-08-08T23:57:39 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- MasterSuite -->
+</testng-results>
